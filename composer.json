@@ -1,0 +1,28 @@
+{
+  "name": "ms/larackfinder",
+  "description": "CKFinder 3 package for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0.2",
+    "laravel/framework": "^5.5|^6.20.42|^7.0|^8.0|^9.0",
+    "pimple/pimple": "~3.0",
+    "league/flysystem": "^3.0",
+    "league/flysystem-aws-s3-v3": "^3.0",
+    "tecdiary/flysystem-cached-adapter": "dev-master",
+    "spatie/flysystem-dropbox": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CKSource\\CKFinderBridge\\": "src/",
+      "CKSource\\CKFinder\\": "_connector/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CKSource\\CKFinderBridge\\CKFinderServiceProvider"
+      ]
+    }
+  }
+}
