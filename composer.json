@@ -18,6 +18,8 @@
       "CKSource\\CKFinder\\": "_connector/"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "laravel": {
       "providers": [
