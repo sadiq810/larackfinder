@@ -9,7 +9,7 @@
     "pimple/pimple": "~3.0",
     "league/flysystem": "^3.0",
     "league/flysystem-aws-s3-v3": "^3.0",
-    "tecdiary/flysystem-cached-adapter": "dev-master",
+    "msadiq/flysystem-cached-adapter": "dev-master",
     "spatie/flysystem-dropbox": "^2.0"
   },
   "autoload": {
